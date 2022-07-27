@@ -3,12 +3,12 @@ package Exercise_ControlStatement;
 public class Exercise02 {
 
 	public static void main(String[] args) {
-		// forë¬¸ì?? ?´ì?©í?´ì?? 1ë¶??? 76ê¹?ì§??? ?©ì?? ì¶???
+		// forë¬¸ì„ ì´ìš©í•´ì„œ 1ë¶€í„° 76ê¹Œì§€ì˜ í•©ì„ ì¶œë ¥
 		int i;
 		int sum = 0;
 		for (i = 1; i <= 76; i++) {
 			sum += i;
 		}
-		System.out.println("1ë¶??? " + (i-1) +"ê¹?ì§??? ?©ì?? " + sum);
+		System.out.println("1ë¶€í„° " + (i-1) +"ê¹Œì§€ì˜ í•©ì€ " + sum);
 	}
 }

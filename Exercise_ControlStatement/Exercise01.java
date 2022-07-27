@@ -3,10 +3,10 @@ package Exercise_ControlStatement;
 public class Exercise01 {
 
 	public static void main(String[] args) {
-		// "???????¸ì??"ë¥? 5ë²? ì¶???
+		// "¾È³çÇÏ¼¼¿ä"¸¦ 5¹ø Ãâ·Â
 
 		for (int i = 0; i < 5; i++) {
-			System.out.println("???????¸ì??");
+			System.out.println("¾È³çÇÏ¼¼¿ä");
 		}
 	}
 }

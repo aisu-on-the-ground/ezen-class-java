@@ -3,8 +3,8 @@ package Exercise_ControlStatement;
 public class Exercise08 {
 
 	public static void main(String[] args) {
-		// 1+(-2)+3+(-4)+... ?? ê°??? ???¼ë? ê³??? ???´ë??ê°??? ??
-		// ëª?ê¹?ì§? ???´ì?? ì´??©ì?? 100 ?´ì???? ????ì§? ì¶???
+		// 1+(-2)+3+(-4)+... ì™€ ê°™ì€ ì‹ìœ¼ë¡œ ê³„ì† ë”í•´ë‚˜ê°”ì„ ë•Œ
+		// ëª‡ê¹Œì§€ ë”í•´ì•¼ ì´í•©ì´ 100 ì´ìƒì´ ë˜ëŠ”ì§€ ì¶œë ¥
 
 		int i = 1;
 		int sum = 0;
@@ -13,15 +13,15 @@ public class Exercise08 {
 			if (i % 2 == 1) {
 				System.out.print(sum + " + ");
 				sum += i;
-				System.out.println(+i + "?? " + sum);
+				System.out.println(+i + "ëŠ” " + sum);
 				i++;
 			} else if (i % 2 == 0) {
 				System.out.print(sum + " - ");
 				sum -= i;
-				System.out.println(+i + "?? " + sum);
+				System.out.println(+i + "ëŠ” " + sum);
 				i++;
 			}
 		}
-		System.out.println(i + "?? ???´ì?? ì´? ?©ì?? 100 ?´ì???? ????.");
+		System.out.println(i + "ì„ ë”í•´ì•¼ ì´ í•©ì´ 100 ì´ìƒì´ ëœë‹¤.");
 	}
 }

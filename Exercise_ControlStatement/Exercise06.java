@@ -3,7 +3,7 @@ package Exercise_ControlStatement;
 public class Exercise06 {
 
 	public static void main(String[] args) {
-		// forë¬¸ì?? ?´ì?©í?´ì?? 1ë¶??? 1000ê¹?ì§??? ?«ì?? ì¤? 3?? ë°°ì??ë§? ?????? ì½???ë¥? ???±í???? ê²°ê³¼ë¥? ì¶???
+		// forë¬¸ì„ ì´ìš©í•´ì„œ 1ë¶€í„° 1000ê¹Œì§€ì˜ ìˆ«ì ì¤‘ 3ì˜ ë°°ìˆ˜ë§Œ ë”í•˜ëŠ” ì½”ë“œë¥¼ ì‘ì„±í•˜ì—¬ ê²°ê³¼ë¥¼ ì¶œë ¥
 
 		int i;
 		int sum = 0;
@@ -15,6 +15,6 @@ public class Exercise06 {
 				continue;
 			}
 		}
-		System.out.println("ì´??©ì?? " + sum);
+		System.out.println("ì´í•©ì€ " + sum);
 	}
 }
