@@ -1,0 +1,17 @@
+package Exercise_ControlStatement;
+
+public class Exercise09 {
+
+	public static void main(String[] args) {
+		// 1+(1+2)+(1+2+3)+(1+2+3+4)+...+(1+2+3+...+10)?? ê²°ê³¼ë¥? ì¶???.
+
+		int sum = 0;
+
+		for (int i = 1; i <= 10; i++) { // ?????? ë²???ë¥? ????
+			for (int j = 1; j <= i; j++) { // ?¤ì??ë¡? ???´ì??? ?? (1 ~ ???´í?? ë²???ê¹?ì§?)
+				sum += j;
+			}
+		}
+		System.out.println(sum);
+	}
+}

@@ -1,0 +1,12 @@
+package Exercise_ControlStatement;
+
+public class Exercise01 {
+
+	public static void main(String[] args) {
+		// "???????¸ì??"ë¥? 5ë²? ì¶???
+
+		for (int i = 0; i < 5; i++) {
+			System.out.println("???????¸ì??");
+		}
+	}
+}

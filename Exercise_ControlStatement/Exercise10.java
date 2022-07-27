@@ -1,0 +1,34 @@
+package Exercise_ControlStatement;
+
+public class Exercise10 {
+
+	public static void main(String[] args) {
+		// 863?? ?????資?? 2~100 ?科?渥?? ????諝? 黺???
+
+		int i;
+		int number = 863;
+
+		// Q1. 863?? ?????資??
+		for (i = 2; i <= number; i++) {
+			if (number % i == 0 && i == number) {
+				System.out.println(number + "?? ??????????.");
+			} else if (number % i == 0 && i < number) {
+				System.out.println(number + "?? ????穈? ????????.");
+				break;
+			}
+		}
+
+		System.out.println("--------------");
+
+		// Q2. 2~100 ?科?渥?? ????諝? 黺???
+		for (number = 2; number <= 100; number++) {
+			for (i = 2; i <= number; i++) {
+				if (number % i == 0 && i == number) {
+					System.out.println(i + "?? ??????????.");
+				} else if (number % i == 0 && i < number) {
+					break;
+				}
+			}
+		}
+	}
+}
