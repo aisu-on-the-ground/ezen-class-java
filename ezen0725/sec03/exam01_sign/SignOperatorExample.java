@@ -9,7 +9,7 @@ public class SignOperatorExample {
 		System.out.println("result2=" + result2);
 		
 		short s = 100;
-		//short result3 = -s;  //ÄÄÆÄÀÏ ¿¡·¯. short´Â
+		//short result3 = -s;  //ì»´íŒŒì¼ ì—ëŸ¬. shortëŠ”
 		int result3 = -s; 
 		System.out.println("result3=" + result3);
 

@@ -9,4 +9,5 @@ public class GarbageValueExample {
 			System.out.println("var1: " + var1 + "\t" + "var2: " + var2);
 		}
 	}
+	
 }

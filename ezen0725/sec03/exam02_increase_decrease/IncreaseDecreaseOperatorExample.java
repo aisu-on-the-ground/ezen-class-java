@@ -7,7 +7,7 @@ public class IncreaseDecreaseOperatorExample {
 		int z;
 		
 		System.out.println("-----------------------");
-		x++; //10   ´ÜÇ×¿¬»êÀÚ(++)°¡ µÚ¿¡ ºÙÀ¸¸é ÇöÀç ¿¬»ê ¶§´Â °ªÀ» À¯ÁöÇÏ°í ´ÙÀ½ ¿¬»ê¿¡ +1 (x¸¦ ¾îµğ¼±°¡ °¡Á®´Ù ¾µ ¶§ ±× ¼ø°£ Áõ°¡)
+		x++; //10   ë‹¨í•­ì—°ì‚°ì(++)ê°€ ë’¤ì— ë¶™ìœ¼ë©´ í˜„ì¬ ì—°ì‚° ë•ŒëŠ” ê°’ì„ ìœ ì§€í•˜ê³  ë‹¤ìŒ ì—°ì‚°ì— +1 (xë¥¼ ì–´ë””ì„ ê°€ ê°€ì ¸ë‹¤ ì“¸ ë•Œ ê·¸ ìˆœê°„ ì¦ê°€)
 		++x; //12
 		System.out.println("x=" + x);		
 
@@ -18,7 +18,7 @@ public class IncreaseDecreaseOperatorExample {
 
 		System.out.println("-----------------------");		
 		z = x++;
-		System.out.println("z=" + z); //12 ¿©±â±îÁø 12ÀÌ°í ÀÌ ÈÄ¿¡ +1
+		System.out.println("z=" + z); //12 ì—¬ê¸°ê¹Œì§„ 12ì´ê³  ì´ í›„ì— +1
 		System.out.println("x=" + x); //13
 		
 		System.out.println("-----------------------");		
