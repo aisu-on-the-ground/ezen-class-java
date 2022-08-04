@@ -11,7 +11,7 @@ public class Exercise06 {
 		for (i = 1; i <= 1000; i++) {
 			if (i % 3 == 0) {
 				sum += i;
-			} else {
+			} else {	// else문 생략가능.
 				continue;
 			}
 		}

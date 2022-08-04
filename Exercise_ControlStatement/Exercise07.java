@@ -10,7 +10,7 @@ public class Exercise07 {
 		int i = 1;
 		int sum = 0;
 
-		while (sum < 1000) {
+		while (sum <= 1000) {
 			if (i % 2 == 1 || (i % 2 == 0 && i % 3 == 0)) { // (i %6 == 0) 과 결과 비교해보기
 				sum += i;
 				i++;
