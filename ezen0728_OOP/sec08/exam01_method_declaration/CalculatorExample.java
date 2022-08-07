@@ -12,6 +12,7 @@ public class CalculatorExample {
 		byte y = 4;
 		double result2 = myCalc.divide(x, y);
 		System.out.println("result2: " + result2);
+
 		
 		myCalc.powerOff();
 	}

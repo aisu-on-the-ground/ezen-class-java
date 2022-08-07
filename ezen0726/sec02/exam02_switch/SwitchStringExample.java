@@ -2,7 +2,7 @@ package ezen0726.sec02.exam02_switch;
 
 public class SwitchStringExample {
 	public static void main(String[] args) {
-		String position = "과장";
+		String position = "사원";
 		
 		switch(position) {
 			case "부장":

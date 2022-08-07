@@ -3,10 +3,9 @@ package ezen0728_OOP.sec07.exam04_other_constructor_call;
 public class CarExample {
 	public static void main(String[] args) {
 		Car car1 = new Car();
-		System.out.println("car4.company : " + car1.company);
-		System.out.println("car4.model : " + car1.model);
-		System.out.println("car4.color : " + car1.color);
-		System.out.println("car4.maxSpeed : " + car1.maxSpeed);
+		System.out.println("car1.company : " + car1.company);
+		System.out.println("car1.model : " + car1.model);
+		System.out.println("car1.color : " + car1.color);
 		System.out.println();
 		
 		Car car2 = new Car("자가용");

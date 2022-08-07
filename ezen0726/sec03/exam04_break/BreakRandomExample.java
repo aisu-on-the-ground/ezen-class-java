@@ -1,6 +1,6 @@
 package ezen0726.sec03.exam04_break;
 
-public class  BreakExample {
+public class  BreakRandomExample {
 	public static void main(String[] args) throws Exception {
 		while(true) {
 			int num = (int)(Math.random()*6) + 1;

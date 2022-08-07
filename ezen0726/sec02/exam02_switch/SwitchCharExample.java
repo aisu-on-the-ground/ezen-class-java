@@ -10,6 +10,7 @@ public class SwitchCharExample {
 				System.out.println("우수 회원입니다.");
 				break;
 			case 'B':
+				//break;
 			case 'b':
 				System.out.println("일반 회원입니다.");
 				break;							

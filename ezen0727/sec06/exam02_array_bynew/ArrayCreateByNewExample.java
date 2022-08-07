@@ -3,7 +3,7 @@ public class ArrayCreateByNewExample {
 	public static void main(String[] args) {
 		int[] arr1 = new int[3];
 		for(int i=0; i<3; i++) {
-			System.out.println("arr1[" + i + "] : " + arr1[i]);
+			System.out.println("arr1[" + i + "] : " + arr1[i]); //초기값을 따로 주지 않으면 디폴트 0
 		}
 		arr1[0] = 10;
 		arr1[1] = 20;
@@ -25,7 +25,7 @@ public class ArrayCreateByNewExample {
 		
 		String[] arr3 = new String[3];
 		for(int i=0; i<3; i++) {
-			System.out.println("arr3[" + i + "] : " + arr3[i]);
+			System.out.println("arr3[" + i + "] : " + arr3[i]); //초기값을 따로 주지 않으면 디폴트 null
 		}
 		arr3[0] = "1월";
 		arr3[1] = "2월";

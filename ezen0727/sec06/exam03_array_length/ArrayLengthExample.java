@@ -9,7 +9,7 @@ public class ArrayLengthExample {
 		}
 		System.out.println("총합 : " + sum);
 		
-		double avg = (double) sum / scores.length;
+		double avg = (double) sum / scores.length; //분모를 배열의 크기로 지정
 		System.out.println("평균 : " + avg);
 	}
 }

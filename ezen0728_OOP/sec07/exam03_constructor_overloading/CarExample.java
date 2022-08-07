@@ -9,6 +9,7 @@ public class CarExample {
 		Car car2 = new Car("자가용");
 		System.out.println("car2.company : " + car2.company);
 		System.out.println("car2.model : " + car2.model);
+		System.out.println("car2.color : " + car2.color); // 생성자에서 초기화해주지 않았고 생성 후 초기화하지도 않았기 때문에 기본값 null
 		System.out.println();
 		
 		Car car3 = new Car("자가용", "빨강");

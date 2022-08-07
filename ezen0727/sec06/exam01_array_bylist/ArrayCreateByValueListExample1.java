@@ -12,8 +12,8 @@ public class ArrayCreateByValueListExample1 {
 		for(int i=0; i<3; i++) {
 			sum += scores[i];
 		}
-		System.out.println("���� : " + sum);		
-		double avg = (double) sum / 3;
-		System.out.println("��� : " + avg);
+		System.out.println("총합 : " + sum);		
+		double avg = (double) sum / 3; //강제형변환 없이 계산하면 int형의 계산은 int형의 결과가 나오기 때문에 소수점 이하가 버려짐. 주의!
+		System.out.println("평균 : " + avg);
 	}
 }

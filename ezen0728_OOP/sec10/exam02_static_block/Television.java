@@ -8,4 +8,5 @@ public class Television {
 	static {
 		info = company + "-" + model;
 	}
+
 }
