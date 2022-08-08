@@ -8,12 +8,12 @@ public class SignOperatorExample {
 		System.out.println("result1=" + result1);
 		System.out.println("result2=" + result2);
 		
+		// ** 부호연산자의 산출 타입은 'int'가 된다!
+		
 		short s = 100;
-		//short result3 = -s;  //컴파일 에러. short는
+		//short result3 = -s;  //컴파일 에러. 산출 타입은 int 이므로 int형 변수에 저장할 수 있다.
 		int result3 = -s; 
 		System.out.println("result3=" + result3);
-		
-		short형은 부호변환이 안되나요
 
 	}
 }
