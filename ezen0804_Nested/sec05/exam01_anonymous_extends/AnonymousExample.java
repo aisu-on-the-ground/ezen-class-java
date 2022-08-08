@@ -3,19 +3,21 @@ package ezen0804_Nested.sec05.exam01_anonymous_extends;
 public class AnonymousExample {
 	public static void main(String[] args) {
 		Anonymous anony = new Anonymous();
-		//ÀÍ¸í °´Ã¼ ÇÊµå »ç¿ë
+		//ìµëª… ê°ì²´ í•„ë“œ ì‚¬ìš©
 		anony.field.wake();
-		//ÀÍ¸í °´Ã¼ ·ÎÄÃº¯¼ö »ç¿ë
+		//ìµëª… ê°ì²´ ë¡œì»¬ë³€ìˆ˜ ì‚¬ìš©
 		anony.method1();
-		//ÀÍ¸í °´Ã¼ ¸Å°³°ª »ç¿ë
+		//ìµëª… ê°ì²´ ë§¤ê°œê°’ ì‚¬ìš©
+		
+		
 		anony.method2(
-			new Person() {
+			new Person() { // ìµëª…ê°œì²´ ë§Œë“¤ì–´ ì‚¬ìš©. ë©”ì†Œë“œ ì‹¤ì²´í™”ë„ ë™ì‹œì— ì´ë£¨ì–´ì§„ë‹¤.
 				void study() {
-					System.out.println("°øºÎÇÕ´Ï´Ù.");
+					System.out.println("ê³µë¶€í•©ë‹ˆë‹¤.");
 				}
 				@Override
 				void wake() {
-					System.out.println("8½Ã¿¡ ÀÏ¾î³³´Ï´Ù.");
+					System.out.println("8ì‹œì— ì¼ì–´ë‚©ë‹ˆë‹¤.");
 					study();
 				}
 			}

@@ -6,10 +6,14 @@ public class Example {
 		
 		InterfaceA ia = impl;
 		ia.methodA();
+		//ia.methodB(); //불가능
+		//ia.methodC(); //불가능
 		System.out.println();
 		
 		InterfaceB ib = impl;
 		ib.methodB();
+		//ib.methodA(); //불가능
+		//ib.methodC(); //불가능
 		System.out.println();
 		
 		InterfaceC ic = impl;

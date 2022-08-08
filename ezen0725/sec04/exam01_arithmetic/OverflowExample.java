@@ -4,7 +4,7 @@ public class OverflowExample {
 		/*
 		int x = 1000000;
 		int y = 1000000;
-		int z = x * y;  //intÇü µ¥ÀÌÅÍÅ¸ÀÔÀÇ ¹üÀ§ ÃÊ°ú
+		int z = x * y;  //intí˜• ë°ì´í„°íƒ€ì…ì˜ ë²”ìœ„ ì´ˆê³¼
 		System.out.println(z);
 		*/
 		

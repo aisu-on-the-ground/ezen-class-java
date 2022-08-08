@@ -12,9 +12,9 @@ public class RemoteControlExample {
 		// rc.search();
 		// SmartTelevision엔 있지만 RemoteControl엔 없으므로 불가.
 		
-		Searchable searchable = tv;
-		searchable.search("www.naver.com");
-		// searchable.turnOn();
+		Searchable sc = tv;
+		sc.search("www.naver.com");
+		// sc.turnOn();
 		// 마찬가지. RemoteControl엔 있지만 
 		// 현재는 Searchable 타입이므로 Searchable에 없는 것은 불가.
 	}

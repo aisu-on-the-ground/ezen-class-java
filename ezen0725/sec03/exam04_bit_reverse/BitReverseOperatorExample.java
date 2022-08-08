@@ -10,7 +10,7 @@ public class BitReverseOperatorExample {
 		System.out.println();
 		
 		int v4 = -10;
-		int v5 = ~v4;
+		int v5 = ~v4; //비트반전 시에 절대값이 달라짐! 양수로 변할 때 -1. 음수값 범위가 1만큼 더 넓다
 		int v6 = ~v4 + 1;
 		System.out.println(toBinaryString(v4) + " (십진수: " + v4 + ")");
 		System.out.println(toBinaryString(v5) + " (십진수: " + v5 + ")");

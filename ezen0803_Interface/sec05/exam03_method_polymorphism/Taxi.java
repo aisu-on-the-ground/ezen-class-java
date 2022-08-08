@@ -3,6 +3,6 @@ package ezen0803_Interface.sec05.exam03_method_polymorphism;
 public class Taxi implements Vehicle {
 	@Override
 	public void run() {
-		System.out.println("ÅÃ½Ã°¡ ´Ş¸³´Ï´Ù.");
+		System.out.println("íƒì‹œê°€ ë‹¬ë¦½ë‹ˆë‹¤.");
 	}
 }

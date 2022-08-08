@@ -11,6 +11,9 @@ public class CompareOperatorExample2 {
 		System.out.println(v4 == v5); //false
 		System.out.println((float)v4 == v5); //true
 		System.out.println((int)(v4*10) == (int)(v5*10)); //true
+		
+		System.out.println(v4);
+		System.out.println(v5);
 	}
 }
 

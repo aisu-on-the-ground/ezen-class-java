@@ -6,6 +6,6 @@ public class RemoteControlExample {
 			public void turnOn() { /*실행문*/ }	
 			public void turnOff() { /*실행문*/ }
 			public void setVolume(int volume) { /*실행문*/ }
-		};
+		}; // ; 세미콜론 주의
 	}
 }

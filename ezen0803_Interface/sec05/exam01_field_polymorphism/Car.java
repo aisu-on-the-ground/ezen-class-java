@@ -1,6 +1,9 @@
 package ezen0803_Interface.sec05.exam01_field_polymorphism;
 
 public class Car {
+	
+	
+	
 	Tire frontLeftTire = new HankookTire();
 	Tire frontRightTire = new HankookTire();
 	Tire backLeftTire = new HankookTire();
@@ -11,5 +14,13 @@ public class Car {
 		frontRightTire.roll();
 		backLeftTire.roll();
 		backRightTire.roll();
+		System.out.println();
+	}
+	
+	public static void main(String[] args) {
+		HankookTire hTire = new HankookTire();
+		hTire.roll();
+		Tire tTire = hTire;
+		tTire.roll();
 	}
 }

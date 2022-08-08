@@ -9,7 +9,7 @@ public class AnonymousExample {
 		anony.method1();
 		//익명 객체 매개값 사용
 		anony.method2(
-			new RemoteControl() {
+			new RemoteControl() { // 익명 구현 객체 ??
 				@Override
 				public void turnOn() {
 					System.out.println("SmartTV를 켭니다.");

@@ -8,7 +8,7 @@ public class DenyLogicOperatorExample {
     play = !play;
     System.out.println(play);
 
-    play = !play;
+    play = !play; //run 변수 제어시에 사용 가능
     System.out.println(play);
 	}
 }

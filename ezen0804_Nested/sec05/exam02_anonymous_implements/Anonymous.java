@@ -15,7 +15,7 @@ public class Anonymous {
 	
 	void method1() {
 		//로컬변수값으로 대입
-		RemoteControl localVar = new RemoteControl() {
+		RemoteControl localVar = new RemoteControl() { 
 			@Override
 			public void turnOn() {
 				System.out.println("Audio를 켭니다.");

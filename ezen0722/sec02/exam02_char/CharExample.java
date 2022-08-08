@@ -19,5 +19,13 @@ public class CharExample {
 		System.out.println(c5);
 		System.out.println(c6);
 		System.out.println(uniCode);
+		
+		int a = (int)c4;
+		System.out.println(a);
+		
+		char b = 65535; //char형의 가장 큰 값
+		String c = Integer.toBinaryString(b); 
+		System.out.println(c); //char형 변수는 2byte의 크기를 갖는다
+		
 	} 
 }

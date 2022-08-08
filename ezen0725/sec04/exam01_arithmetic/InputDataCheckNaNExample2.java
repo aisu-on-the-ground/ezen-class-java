@@ -14,5 +14,12 @@ public class InputDataCheckNaNExample2 {
 		
 		currentBalance += val;
 		System.out.println(currentBalance);
+		
+		
+		double d1 = 0;
+		double d2 = 0.0;
+		
+		System.out.println(d1);
+		System.out.println(d2);
 	}
 }
