@@ -11,6 +11,8 @@ public class CarExample {
 					System.out.println("앞왼쪽 HankookTire로 교체");
 					car.frontLeftTire = new HankookTire("앞왼쪽", 15);
 					break;
+					//car.frontLeftTire는 부모인 Tire타입형 객체이므로 자식클래스의 객체가 자동형변환하여 대입될 수 있다.
+					
 				case 2:
 					System.out.println("앞오른쪽 KumhoTire로 교체");
 					car.frontRightTire = new KumhoTire("앞오른쪽", 13);	

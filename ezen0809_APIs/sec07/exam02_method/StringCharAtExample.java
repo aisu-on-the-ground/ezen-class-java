@@ -3,6 +3,7 @@ package ezen0809_APIs.sec07.exam02_method;
 public class StringCharAtExample {
 	public static void main(String[] args) {
 		String ssn = "010624-1230123";
+					//0106241230123
 		char sex = ssn.charAt(7);
 		switch (sex) {
 			case '1':

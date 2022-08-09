@@ -2,7 +2,7 @@ package ezen0801_Inheritance.sec07.exam04_array_management;
 
 public class Car {
 	//필드
-	Tire[] tires = {
+	Tire[] tires = { // 앞과 같은 예제를 배열로 재구성한 것.
 			new Tire("앞왼쪽", 6),
 			new Tire("앞오른쪽", 2),
 			new Tire("뒤왼쪽", 3),

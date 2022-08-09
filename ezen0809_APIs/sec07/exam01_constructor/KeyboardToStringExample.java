@@ -10,6 +10,7 @@ public class KeyboardToStringExample {
 		int readByteNo = System.in.read(bytes);
 
 		String str = new String(bytes, 0, readByteNo-2);
+		// -2인 이유는 엔터키도 13 10 이라는 두 가지 값을 가지기 때문.
 		System.out.println(str);
 	}
 }

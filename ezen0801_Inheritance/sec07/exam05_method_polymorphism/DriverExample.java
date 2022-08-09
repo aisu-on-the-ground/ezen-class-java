@@ -7,7 +7,7 @@ public class DriverExample {
 		Bus bus = new Bus();
 		Taxi taxi = new Taxi();
 		
-		driver.drive(bus);
+		driver.drive(bus); //부모타입(Vehicle) 매개변수가 들어가는 자리에 자식클래스인 Bus타입 형 변수 bus가 들어감. 문제없음.
 		driver.drive(taxi);
 	}
 }

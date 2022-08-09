@@ -7,7 +7,7 @@ public class SearchExample {
 		//기본 타입값 검색
 		int[] scores = { 99, 97, 98 };
 		Arrays.sort(scores);
-		int index = Arrays.binarySearch(scores, 99);
+		int index = Arrays.binarySearch(scores, 99); //배열의 값이 어느 인덱스에 있는지 찾는 메소드.
 		System.out.println("찾은 인덱스: " + index);
 		
 		//문자열 검색

@@ -13,13 +13,13 @@ public class StringGetBytesExample {
 		
 		try {
 			
-			byte[] bytes2 = str.getBytes("EUC-KR");
+			byte[] bytes2 = str.getBytes("EUC-KR"); // 한 글자당 2바이트
 			System.out.println("bytes2.length: " + bytes2.length);
 			String str2 = new String(bytes2, "EUC-KR");
 			System.out.println("bytes2->String: " + str2);
 			
 			
-			byte[] bytes3 = str.getBytes("UTF-8");
+			byte[] bytes3 = str.getBytes("UTF-8"); // 한 글자당 3바이트
 			System.out.println("bytes3.length: " + bytes3.length);
 			String str3 = new String(bytes3, "UTF-8");
 			System.out.println("bytes3->String: " + str3);		

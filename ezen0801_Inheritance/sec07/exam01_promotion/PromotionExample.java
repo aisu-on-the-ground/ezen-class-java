@@ -7,12 +7,12 @@ public class PromotionExample {
 		D d = new D();
 		E e = new E();		
 		
-		A a1 = b;
-		A a2 = c;
+		A a1 = b; // 자동형변환이 이루어지는 부분.
+		A a2 = c; // 자신의 부모 데이터타입이라면 자동형변환이 가능.
 		A a3 = d;
 		A a4 = e;
 		
-		B b1 = d;
+		B b1 = d; 
 		C c1 = e;
 
 		//B b3 = e;

@@ -4,15 +4,15 @@ import java.lang.reflect.*;
 
 public class ReflectionExample {
 	public static void main(String[] args) throws Exception {
-		Class clazz = Class.forName("sec06.exam02_reflection.Car");
+		Class clazz = Class.forName("ezen0809_APIs.sec06.exam02_reflection.Car");
 		
 		System.out.println("[클래스 이름]");
 		System.out.println(clazz.getName());
 		System.out.println();		
 		
 		System.out.println("[생성자 정보]");
-		Constructor[] constructors = clazz.getDeclaredConstructors();
-		for(Constructor constructor : constructors) {
+		Constructor[] constructors = clazz.getDeclaredConstructors(); //생성자 정보를 받은 Constructor배열을 리턴해주는 메소드.
+		for(Constructor constructor : constructors) { //얻어낸 배열객체를 하나씩 꺼내오는 부분.
 			System.out.print(constructor.getName() + "(");
 			Class[] parameters = constructor.getParameterTypes();
 			printParameters(parameters);

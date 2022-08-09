@@ -2,7 +2,7 @@ package ezen0809_APIs.sec05.exam03_systemtime;
 
 public class SystemTimeExample {
 	public static void main(String[] args) {
-		long time1 = System.nanoTime();
+		long time1 = System.nanoTime(); // 나노타임은 1/10e9
 		
 		int sum = 0;
 		for(int i=1; i<=1000000; i++) {
