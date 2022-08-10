@@ -6,20 +6,20 @@ public class EqualsExample {
 	public static void main(String[] args) {
 		int[][] original = { {1,2}, {3,4} };
 		
-		//¾èÀº º¹»çÈÄ ºñ±³
-		System.out.println("[¾èÀº º¹Á¦ÈÄ ºñ±³]");
+		//ì–•ì€ ë³µì‚¬í›„ ë¹„êµ
+		System.out.println("[ì–•ì€ ë³µì œí›„ ë¹„êµ]");
 		int[][] cloned1 = Arrays.copyOf(original, original.length);
-		System.out.println("¹è¿­ ¹øÁö ºñ±³: " + original.equals(cloned1));
-		System.out.println("1Â÷ ¹è¿­ Ç×¸ñ°ª ºñ±³: " + Arrays.equals(original, cloned1));
-		System.out.println("ÁßÃ¸ ¹è¿­ Ç×¸ñ°ª ºñ±³: " + Arrays.deepEquals(original, cloned1));
+		System.out.println("ë°°ì—´ ë²ˆì§€ ë¹„êµ: " + original.equals(cloned1));
+		System.out.println("1ì°¨ ë°°ì—´ í•­ëª©ê°’ ë¹„êµ: " + Arrays.equals(original, cloned1));
+		System.out.println("ì¤‘ì²© ë°°ì—´ í•­ëª©ê°’ ë¹„êµ: " + Arrays.deepEquals(original, cloned1));
 		
-		//±íÀº º¹»çÈÄ ºñ±³
-		System.out.println("\n[±íÀº º¹Á¦ÈÄ ºñ±³]");
+		//ê¹Šì€ ë³µì‚¬í›„ ë¹„êµ
+		System.out.println("\n[ê¹Šì€ ë³µì œí›„ ë¹„êµ]");
 		int[][] cloned2 = Arrays.copyOf(original, original.length);
 		cloned2[0] = Arrays.copyOf(original[0], original[0].length);
 		cloned2[1] = Arrays.copyOf(original[1], original[1].length);
-		System.out.println("¹è¿­ ¹øÁö ºñ±³: " + original.equals(cloned2));
-		System.out.println("1Â÷ ¹è¿­ Ç×¸ñ°ª ºñ±³: " + Arrays.equals(original, cloned2));
-		System.out.println("ÁßÃ¸ ¹è¿­ Ç×¸ñ°ª ºñ±³: " + Arrays.deepEquals(original, cloned2));
+		System.out.println("ë°°ì—´ ë²ˆì§€ ë¹„êµ: " + original.equals(cloned2));
+		System.out.println("1ì°¨ ë°°ì—´ í•­ëª©ê°’ ë¹„êµ: " + Arrays.equals(original, cloned2));
+		System.out.println("ì¤‘ì²© ë°°ì—´ í•­ëª©ê°’ ë¹„êµ: " + Arrays.deepEquals(original, cloned2));
 	}
 }
