@@ -6,20 +6,20 @@ public class EqualsExample {
 	public static void main(String[] args) {
 		int[][] original = { {1,2}, {3,4} };
 		
-		//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½
-		System.out.println("[ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½]");
+		//¾èÀº º¹»çÈÄ ºñ±³
+		System.out.println("[¾èÀº º¹Á¦ÈÄ ºñ±³]");
 		int[][] cloned1 = Arrays.copyOf(original, original.length);
-		System.out.println("ï¿½è¿­ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½: " + original.equals(cloned1));
-		System.out.println("1ï¿½ï¿½ ï¿½è¿­ ï¿½×¸ï¿½ ï¿½ï¿½: " + Arrays.equals(original, cloned1));
-		System.out.println("ï¿½ï¿½Ã¸ ï¿½è¿­ ï¿½×¸ï¿½ ï¿½ï¿½: " + Arrays.deepEquals(original, cloned1));
+		System.out.println("¹è¿­ ¹øÁö ºñ±³: " + original.equals(cloned1));
+		System.out.println("1Â÷ ¹è¿­ Ç×¸ñ°ª ºñ±³: " + Arrays.equals(original, cloned1));
+		System.out.println("ÁßÃ¸ ¹è¿­ Ç×¸ñ°ª ºñ±³: " + Arrays.deepEquals(original, cloned1));
 		
-		//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½
-		System.out.println("\n[ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½]");
+		//±íÀº º¹»çÈÄ ºñ±³
+		System.out.println("\n[±íÀº º¹Á¦ÈÄ ºñ±³]");
 		int[][] cloned2 = Arrays.copyOf(original, original.length);
 		cloned2[0] = Arrays.copyOf(original[0], original[0].length);
 		cloned2[1] = Arrays.copyOf(original[1], original[1].length);
-		System.out.println("ï¿½è¿­ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½: " + original.equals(cloned2));
-		System.out.println("1ï¿½ï¿½ ï¿½è¿­ ï¿½×¸ï¿½ ï¿½ï¿½: " + Arrays.equals(original, cloned2));
-		System.out.println("ï¿½ï¿½Ã¸ ï¿½è¿­ ï¿½×¸ï¿½ ï¿½ï¿½: " + Arrays.deepEquals(original, cloned2));
+		System.out.println("¹è¿­ ¹øÁö ºñ±³: " + original.equals(cloned2));
+		System.out.println("1Â÷ ¹è¿­ Ç×¸ñ°ª ºñ±³: " + Arrays.equals(original, cloned2));
+		System.out.println("ÁßÃ¸ ¹è¿­ Ç×¸ñ°ª ºñ±³: " + Arrays.deepEquals(original, cloned2));
 	}
 }
