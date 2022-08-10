@@ -7,11 +7,11 @@ public class AutoBoxingUnBoxingExample {
 		System.out.println("value: " + obj.intValue());
 	
 		//대입시 자동 Unboxing
-		int value = obj;  	
+		int value = obj;  //래퍼클래스 객체를 int형 변수에 바로 저장한다.
 		System.out.println("value: " + value);
 		
 		//연산시 자동 Unboxing
-		int result = obj + 100;
+		int result = obj + 100; //연산도 가능하다.
 		System.out.println("result: " + result);
 	}
 }
