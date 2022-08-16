@@ -11,6 +11,6 @@ public class Pair<K, V> {
 
 	public void setKey(K key) { this.key = key; }
 	public void setValue(V value) { this.value = value; }
-	public K getKey()   { return key; }
-	public V getValue() { return value; }
+	public K getKey()   { return key; } // 리턴타입 제네릭
+	public V getValue() { return value; } // 리턴타입 제네릭
 }

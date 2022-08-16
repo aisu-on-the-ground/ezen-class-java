@@ -9,11 +9,14 @@ public class HashSetExample1 {
 		set.add("Java");
 		set.add("JDBC");
 		set.add("Servlet/JSP");
-		set.add("Java");
-		set.add("iBATIS");
+		set.add("Java"); // 중복이므로 제외됨
+		set.add("iBATIS");	
+		
 		
 		int size = set.size();
-		System.out.println("총 객체수: " + size);
+		System.out.println(set);
+		System.out.println("총 객체수: " + size);	// 따라서, 5가 아닌 4가 나옴
+		
 		
 		Iterator<String> iterator = set.iterator();
 		while(iterator.hasNext()) {

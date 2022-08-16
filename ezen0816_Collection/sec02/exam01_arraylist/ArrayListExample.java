@@ -11,13 +11,14 @@ public class ArrayListExample {
 		list.add("Servlet/JSP");
 		list.add(2, "Database");
 		list.add("iBATIS");
+		System.out.println(list+"\n");
 
 		int size = list.size();
 		System.out.println("총 객체수: " + size);		
 		System.out.println();
 		
 		String skill = list.get(2);
-		System.out.println("2: " + skill);
+		System.out.println("2:" + skill);
 		System.out.println();
 
 		for(int i=0; i<list.size(); i++) {

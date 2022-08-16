@@ -13,14 +13,15 @@ public class LinkedListExample {
 		long endTime;
 		
 		startTime = System.nanoTime();
-		for(int i=0; i<10000; i++) {
-			list1.add(0, String.valueOf(i));
+		for(int i=0; i<10000; i++) { // ArrayList 0번 index에 10,000번 삽입
+			list1.add(0, String.valueOf(i)); 
+			// String.valueOf = i를 '문자열'로 저장
 		}
 		endTime = System.nanoTime();
 		System.out.println("ArrayList 걸린시간: " + (endTime-startTime) + " ns");
 		
 		startTime = System.nanoTime();
-		for(int i=0; i<10000; i++) {
+		for(int i=0; i<10000; i++) { // LinkedList 0번 index에 10,000번 삽입
 			list2.add(0, String.valueOf(i));
 		}
 		endTime = System.nanoTime();
