@@ -8,6 +8,9 @@ public class PropertiesExample {
 	public static void main(String[] args) throws Exception {
 		Properties properties  = new Properties();
 		String path = PropertiesExample.class.getResource("database.properties").getPath();
+		
+		System.out.println(path+"\n");
+		
 		path = URLDecoder.decode(path, "utf-8");
 		properties.load(new FileReader(path));
 		

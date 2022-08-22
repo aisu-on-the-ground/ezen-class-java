@@ -13,6 +13,8 @@ public class HashMapExample2 {
 		map.put(new Student(1, "홍길동"), 95);
 		
 		System.out.println("총 Entry 수: " + map.size());
+		
+	// Student의 equals(), hashCode() 재정의된 상태
 	}
 }
 

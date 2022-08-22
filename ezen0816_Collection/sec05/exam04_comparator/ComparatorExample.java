@@ -14,6 +14,8 @@ public class ComparatorExample {
 		*/
 		
 		TreeSet<Fruit> treeSet = new TreeSet<Fruit>(new DescendingComparator());
+		// 비교기준이 되는 클래스 타입으로 객체 생성 -> new DescendingComparator();
+		// 즉 비교기준을 내 마음대로 정의하고 그 비교기준을 넣어준다고 생각
 		treeSet.add(new Fruit("포도", 3000));
 		treeSet.add(new Fruit("수박", 10000));		
 		treeSet.add(new Fruit("딸기", 6000));

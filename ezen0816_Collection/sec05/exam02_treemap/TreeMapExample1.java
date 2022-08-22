@@ -36,5 +36,7 @@ public class TreeMapExample1 {
 			entry = scores.pollFirstEntry();
 			System.out.println(entry.getKey() + "-" + entry.getValue() + "(남은 객체 수: " + scores.size() + ")");
 		}
+		
+		System.out.println(scores.isEmpty());
 	}
 }
